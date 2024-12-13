@@ -1,0 +1,73 @@
+/* Mobile version*/
+
+@media only screen and (max-width: 700px) {
+    h1{
+        font-size: 35px;
+    }
+
+    .header{
+        height: 100%;
+    }
+    
+    .header .row{
+        flex-direction: column;
+    }
+
+    .header .col-1{
+        padding: 20px;
+    }
+
+    .header .col-2 .hero-img{
+        max-width: 90%;
+        /* margin-left: 20px; */
+    }
+
+    .grid-wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        /* background-color: black; */
+
+    }
+
+    .grid-wrapper .grid-box p{
+        text-align: justify;
+    }
+
+    .grid-box{
+        padding: 10px;
+    }
+
+    .skills {
+        height: 100%;
+    }
+
+    .portofolio .title .ctn-title{
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .contact .container{
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .contact .container h1{
+        font-size: 20px;
+    }
+
+    .contact .quick-links{
+        flex-direction: column;
+    }
+
+    .contact .quick-links img{
+        width: 60px;
+    }
+
+    .contact .quick-links ul {
+        margin: 10px 10px;
+        padding: 0 10px;
+    }
+
+    .copyright p{
+        font-size: 14px;
+    }
+}
