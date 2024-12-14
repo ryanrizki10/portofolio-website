@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
-     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
 
 </head>
 
@@ -37,6 +37,9 @@
             </ul>
         </div>
     </nav>
+    <div class="toogle-btn">
+        <i class="fa fa-bars"></i>
+    </div>
 
     <!-- Header -->
     <header class="header container">
@@ -235,6 +238,15 @@
       <div class="copyright container">
         <p>	&#169; 2020 Gowtham Tirri | Subscribe on Youtube</p>
       </div>
+
+      <script>
+        let togglebtn = document.querySelector('.toggle-btn')
+        let navbar = document.querySelector('.navbar')
+
+        togglebtn.addEventListener('click', ()=>{
+            navbar.classList.toggle('mobile-nav')
+        })
+      </script>
 
 </body>
 

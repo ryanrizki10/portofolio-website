@@ -1,12 +1,53 @@
 /* Mobile version*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width : 700px) {
     h1{
         font-size: 35px;
     }
 
+    /* Navbar */
+
+
+
+    .toogle-btn i{
+        display: block;
+        
+    }
+
+    .brand img{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 20px;
+    }
+
+    .navbar{
+        background-color: var(--light-blue);
+        height: 100vh;
+        flex-direction: column;
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+    }
+    
+    .nav-list ul{
+        flex-direction: column;
+    }
+
+    .nav-list ul li{
+        margin-top: 30px;
+    }
+
     .header{
         height: 100%;
+        margin-top: 120px;
     }
     
     .header .row{
