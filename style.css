@@ -103,7 +103,7 @@ a{
     position: relative;
 }
 
-.toogle-btn i{
+.toogle-btn{
     font-size: 30px;
     color: var(--Dark-Purple);
     position: absolute;
